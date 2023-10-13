@@ -2,7 +2,6 @@ package yookassa
 
 import (
 	"bytes"
-	"crypto/md5"
 	"encoding/json"
 	"fmt"
 	"net/http"
@@ -169,7 +168,5 @@ func (c *Client) getIdempotentKey() string {
 	if c.idemKey != nil {
 		return *c.idemKey
 	}
-
-	hash := md5.Sum([]byte(time.Now().String()))
-	return string(hash[:8])
+	return fmt.Sprintf("%d", time.Now().UnixNano())
 }
