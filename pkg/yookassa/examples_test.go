@@ -3,8 +3,8 @@ package yookassa_test
 import (
 	"fmt"
 
-	"github.com/ReanSn0w/go-yookassa/pkg/models"
-	"github.com/ReanSn0w/go-yookassa/pkg/yookassa"
+	"github.com/alehano/go-yookassa/pkg/models"
+	"github.com/alehano/go-yookassa/pkg/yookassa"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ReanSn0w/go-yookassa/pkg/models"
+	"github.com/alehano/go-yookassa/pkg/models"
 )
 
 // Структура с методами для управления сделками

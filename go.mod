@@ -1,3 +1,3 @@
-module github.com/ReanSn0w/go-yookassa
+module github.com/alehano/go-yookassa
 
 go 1.18

@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/ReanSn0w/go-yookassa/pkg/yookassa"
+	"github.com/alehano/go-yookassa/pkg/yookassa"
 )
 
 func Test_CheckIPSuccess(t *testing.T) {
