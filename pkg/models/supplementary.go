@@ -26,7 +26,7 @@ type Card struct {
 	IssuerCountry string `json:"issuer_country,omitempty"`
 	IssuerName    string `json:"issuer_name,omitempty"`
 	Source        string `json:"source,omitempty"`
-	CSC           string `json:"csc,omitempty"
+	CSC           string `json:"csc,omitempty"`
 }
 
 // Структура для описания данных о банке
